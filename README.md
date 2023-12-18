@@ -25,15 +25,14 @@ me_data = {
         'database': ['PostgreSQL', 'MySQL', 'Oracle', 'SQL Server', 'SQLite3', 'Redis'],
         'devops': ['Docker', 'Linux', 'AWS'],
         'frontend': ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Svelte', 'Boostrap'],
-        'tools': ['GIT', 'GitHub', 'GitLab', 'Pandas', 'SQLAlchemy', 'Celery', ],
+        'tools': ['GIT', 'GitHub', 'GitLab', 'Pandas', 'SQLAlchemy', 'Celery'],
         'misc': ['TDD', 'SCRUM', 'gRPC']
     },
     'architecture': ['MVC', 'SOAP', 'Serverless', 'microservices']
 }
 
-stevematos = SoftwareDeveloper(**me_data)
-
 if __name__ == '__main__':
+    stevematos = SoftwareDeveloper(**me_data)
     print(stevematos)
 
 """ 
